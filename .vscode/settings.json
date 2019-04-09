@@ -1,9 +1,0 @@
-// Place your settings in this file to overwrite default and user settings.
-{
-    "language-1c-bsl.linterEntryPoint": "src/console-entry-point.os",
-    "editor.rulers": [ 120 ],
-    "files.associations": {
-        "*.os-template" : "bsl"
-        , "packagedef" : "bsl"
-}
-}
