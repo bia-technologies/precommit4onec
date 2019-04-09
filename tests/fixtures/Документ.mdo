@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385df754-ca61-4a33-891e-85a76740ce8c">
+  <producedTypes>
+    <objectType typeId="dfd6d675-7224-48e1-9f73-27c877f4ebe7" valueTypeId="dc7923eb-814f-4270-94e4-b90e09ba69cc"/>
+    <refType typeId="514db708-6540-4aac-9572-7bc815a489cd" valueTypeId="e83fcebe-b881-4ea1-ab4f-66ac8b6a9125"/>
+    <selectionType typeId="cc0398a5-fb11-4964-a2cc-660199555a1a" valueTypeId="cccce58b-d552-4b60-b68b-6d67a46b1241"/>
+    <listType typeId="f48dffcb-19af-4486-ac12-06c56992a664" valueTypeId="2504943b-5617-4e14-80a4-a5da48ad3ae8"/>
+    <managerType typeId="5efb0435-af92-4b42-ae5a-411d9fb5250f" valueTypeId="3843301c-ad40-42c1-9e49-1b6bd6f90d32"/>
+  </producedTypes>
+  <name>Документ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="01eea830-71a8-4902-b017-62a4d83a4740">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="2c6232da-69cb-4df3-8edb-266590e0b802">
+    <producedTypes>
+      <objectType typeId="09b7654a-ee86-421d-af11-ebf35b735f4a" valueTypeId="8550bec4-2626-4a90-9ba4-157e89f19e2d"/>
+      <rowType typeId="692d5e88-96ff-4bc9-bb0d-3294edbbf1bc" valueTypeId="2ae0c435-e1ea-4b69-8cfc-9bb34e8db960"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="1ebe77fa-0796-4dfe-b378-32e7bb78452c">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="adbb4501-d947-4486-a88d-6a02a30e5f98">
+      <name>Реквизит1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит1</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bb551f9f-818a-4572-b64d-9b1b34e714a6">
+    <producedTypes>
+      <objectType typeId="5e9118b2-a4a0-4748-9386-763b9731c2cf" valueTypeId="75025611-4968-4d40-84e2-748123f73818"/>
+      <rowType typeId="1adafac5-71fd-45a0-9814-c5de37e5f917" valueTypeId="e37fc074-f327-4900-b612-6f0510e85636"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть1</value>
+    </synonym>
+    <attributes uuid="cabdb765-3400-4065-8c71-7c355202c9da">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

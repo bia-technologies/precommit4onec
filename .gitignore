@@ -1,6 +1,6 @@
 bdd-log.xml
 *.ospx
+*.orig
+exec.log
 
-/*.orig
-
-/exec.log
+/tests.xml
