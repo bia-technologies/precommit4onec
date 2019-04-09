@@ -18,7 +18,7 @@
 	Когда Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/main.os install rep1"
 	Тогда Код возврата команды "oscript" равен 0
 		И Я сообщаю вывод команды "oscript"
-		И Вывод команды "oscript" содержит "precommit4onec v1.0.12.2"
+		И Вывод команды "oscript" содержит "precommit4onec v1.10.0"
 		И Вывод команды "oscript" содержит "Pre-commit hook для rep1 создан"
 		И В каталоге ".git/hooks" репозитория "Репозиторий1" есть файл "pre-commit"
 
@@ -28,13 +28,13 @@
 		И Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/main.os install ./"
 	Тогда Код возврата команды "oscript" равен 1
 		И Я сообщаю вывод команды "oscript"
-		И Вывод команды "oscript" содержит "precommit4onec v1.0.12.2"
+		И Вывод команды "oscript" содержит "precommit4onec v1.10.0"
 		И Вывод команды "oscript" содержит "can only be used inside a git repository"
 
 Сценарий: Установка precommit4onec во вложенные каталоги
 	Когда Я выполняю команду "oscript" с параметрами "<КаталогПроекта>/src/main.os install ./ -r"
 	Тогда Код возврата команды "oscript" равен 0
 		И Я сообщаю вывод команды "oscript"
-		И Вывод команды "oscript" содержит "precommit4onec v1.0.12.2"
+		И Вывод команды "oscript" содержит "precommit4onec v1.10.0"
 		И В каталоге ".git/hooks" репозитория "Репозиторий1" есть файл "pre-commit"
 		И В каталоге ".git/hooks" репозитория "Репозиторий2" есть файл "pre-commit"
