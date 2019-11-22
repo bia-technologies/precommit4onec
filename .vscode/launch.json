@@ -1,0 +1,79 @@
+{
+	// Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+	// Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+	// Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+	
+
+		{
+			"name": "Отладка 1Script конфигурирование",
+			"type": "oscript",
+			"request": "launch",
+			"program": "${workspaceRoot}/src/Main.os",
+			"args": ["configure","-config","-rep-path","C:\\reps\\testrep", "-child-path", "src"],
+			"cwd": "${workspaceRoot}",
+			"runtimeExecutable": null,
+			"debugPort": 2801,
+			"protocol": "internal"
+		},
+		
+			{
+				"name": "Отладка 1Script коммит",
+				"type": "oscript",
+				"request": "launch",
+				"program": "${workspaceRoot}/src/Main.os",
+				"args": ["precommit","C:\\rep\\tstrep", "-source-dir", "\"src\""],
+				"cwd": "${workspaceRoot}",
+				"runtimeExecutable": null,
+				"debugPort": 2801,
+				"protocol": "internal"
+			},
+		
+			{
+				"name": "Отладка 1Script установка",
+				"type": "oscript",
+				"request": "launch",
+				"program": "${workspaceRoot}/src/Main.os",
+				"args": ["install","C:\\rep\\tstrep"],
+				"cwd": "${workspaceRoot}",
+				"runtimeExecutable": null,
+				"debugPort": 2801,
+				"protocol": "internal"
+			},
+			{
+				"name": "Отладка 1Script установка рекурсивная",
+				"type": "oscript",
+				"request": "launch",
+				"program": "${workspaceRoot}/src/Main.os",
+				"args": ["install", "C:\\rep\\ ", "-r"],
+				"cwd": "${workspaceRoot}",
+				"runtimeExecutable": null,
+				"debugPort": 2801,
+				"protocol": "internal"
+			},
+			{
+				"name": "Отладка 1Script тестирование",
+				"type": "oscript",
+				"request": "launch",
+				"program": "${workspaceRoot}/tasks/test-feature.os",
+				"args": ["${workspaceRoot}/feature/УстановкаПрекоммита.feature"],
+				"cwd": "${workspaceRoot}",
+				"runtimeExecutable": null,
+				"debugPort": 2801,
+				"protocol": "internal"
+			}
+			,
+			{
+				"name": "Отладка 1Script текущего файла",
+				"type": "oscript",
+				"request": "launch",
+				"program": "${file}",
+				"args": ["${workspaceRoot}/feature/УстановкаПрекоммита.feature"],
+				"cwd": "${workspaceRoot}",
+				"runtimeExecutable": null,
+				"debugPort": 2801,
+				"protocol": "internal"
+			}
+	]
+}
