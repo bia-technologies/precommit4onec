@@ -2,5 +2,5 @@ bdd-log.xml
 *.ospx
 *.orig
 exec.log
-
+.vscode
 /tests.xml
