@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
+	<ConfigVersions>
+		<Metadata name="BusinessProcess.БизнесПроцесс1" id="eee45611-49ab-4d28-9173-a42ad7d8f97a" configVersion="ca4a661a087ec645bf4703bcf57ac92f00000000"/>
+		<Metadata name="BusinessProcess.БизнесПроцесс1.Form.ФормаБизнесПроцесса" id="1af1ae03-f52b-4650-986d-bc63aa0c9926" configVersion="378107f10f5e7342a99c47d7a2d3b29100000000"/>
+		<Metadata name="BusinessProcess.БизнесПроцесс1.Form.ФормаБизнесПроцесса.Form" id="1af1ae03-f52b-4650-986d-bc63aa0c9926.0" configVersion="7ba952f31b200447aeb8af0bc40e735d00000000"/>
+		<Metadata name="BusinessProcess.БизнесПроцесс1.Form.ФормаСписка" id="0dbad928-1ecb-478f-831b-d310cfab3ca8" configVersion="6d0c6eafed45644ab0fd69859cc56e2100000000"/>
+		<Metadata name="BusinessProcess.БизнесПроцесс1.Form.ФормаСписка.Form" id="0dbad928-1ecb-478f-831b-d310cfab3ca8.0" configVersion="04fd0ae925a9174bace5e6ebb32c779b00000000"/>
+		<Metadata name="Catalog.Справочник1" id="60ae4ab9-a09f-420a-8f0e-fe632bb8898f" configVersion="befb5de552561f4b890296e63bb2cf7600000000"/>
+		<Metadata name="Catalog.Справочник1.Form.ФормаЭлемента" id="f03d55a5-c016-4d07-bbae-d371cfb729f0" configVersion="c6c63d09b1a3014fa5ba75bae9e517b100000000"/>
+		<Metadata name="Catalog.Справочник1.Form.ФормаЭлемента.Form" id="f03d55a5-c016-4d07-bbae-d371cfb729f0.0" configVersion="695590c6755e9544a5b728d2282c1f3f00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="b4bb993c-0276-4fc3-bc8f-e6a83c495c2d" configVersion="45556cd7fa23a749886e99c113db6ab400000000"/>
+		<Metadata name="Language.Русский" id="11decc79-5e16-4e21-807b-3de57f51ba5b" configVersion="c156135412cef54a9ec4ece35fd12a3c00000000"/>
+		<Metadata name="Task.Задача1" id="1d1bd021-ed61-4677-9430-c4ffce40dc5b" configVersion="e4720078ad57824c96396c1222e49a5c00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
