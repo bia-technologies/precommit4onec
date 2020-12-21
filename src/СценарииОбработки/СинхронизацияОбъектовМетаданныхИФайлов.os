@@ -223,6 +223,7 @@
 	Список.Добавить("ExternalDataSources", "ExternalDataSource");
 	Список.Добавить("ChartsOfAccounts", "ChartOfAccounts");
 	Список.Добавить("AccountingRegisters", "AccountingRegister");
+	Список.Добавить("Bots", "Bot");
 	Возврат Список;
 	
 КонецФункции
