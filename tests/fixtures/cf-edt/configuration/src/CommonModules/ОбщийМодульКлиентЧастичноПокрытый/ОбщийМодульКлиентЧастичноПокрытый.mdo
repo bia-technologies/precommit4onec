@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6d30a94-b219-4cbd-a309-8d4ec58fb3b0">
+  <name>ОбщийМодульКлиентЧастичноПокрытый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль клиент частично покрытый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

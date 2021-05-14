@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1852094c-1036-4005-b9fe-6b1f983b5943">
+  <producedTypes>
+    <selectionType typeId="8b9ec309-9683-462c-9d24-6be0fd29684e" valueTypeId="40feb075-0c61-4c22-ab12-0c9fd9d1f7fa"/>
+    <listType typeId="f1890515-b178-43bb-8d47-265fedba5b12" valueTypeId="b19a0fd7-2f62-46ce-a8f1-8824f7e92e85"/>
+    <managerType typeId="a9eef7bd-bd5f-4e46-b977-64686c25e42d" valueTypeId="ff409435-a819-4501-a750-9490143c2a20"/>
+    <recordSetType typeId="374cb276-e87d-4eb4-b379-2cf6f5d798af" valueTypeId="fec3ccba-0d98-48b9-9a86-fe2fedbfeff9"/>
+    <recordKeyType typeId="e5b28f91-6ffb-4b61-952d-fdb2e7751dba" valueTypeId="2d1d9bea-ea76-4def-ad9c-b585f628917c"/>
+    <recordType typeId="fa02720c-2377-497b-b204-cdc0df945cc3" valueTypeId="9f659707-8305-4538-a1a6-e719d7a9f29d"/>
+    <recalcsType typeId="441e31b8-4edc-48b0-92d7-36ceca15eba5" valueTypeId="eb339a5a-402a-4f40-bcc5-d2bb1fe1c92b"/>
+  </producedTypes>
+  <name>РегистрРасчета1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр расчета1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета1</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eab52d81-1dd7-4256-aeb0-d7e951667199">
+    <name>Ресурс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ebd0edc6-a53b-462b-af7f-06f2b5eca2ac">
+    <name>Измерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

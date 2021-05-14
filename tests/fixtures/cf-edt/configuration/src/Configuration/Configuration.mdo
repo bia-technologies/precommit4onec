@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d7c2f33-03f3-4850-a827-d35ab72d82f4">
+  <name>pc_test_conf</name>
+  <synonym>
+    <key>ru</key>
+    <value>pc_test_conf</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="eff42064-2bd7-4434-b9f0-dbb1ee25747c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c33046d0-0482-438d-b7a0-53dd9569faa7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="471cf809-ed15-4827-80d5-7567f93a3a41"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8305eb14-322a-459a-984a-2fbeef2fef4a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3fe61283-744e-46f8-b1b0-ed6a02eb17ad"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="68ca030d-281a-4dcd-92cf-4ea660499b6a"/>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="82eb3150-6f4a-45c9-b65c-f1d3d60d8d2e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОбщийМодульБезЭкспортных</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентЧастичноПокрытый</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСерверГлобальныйЧастичноПокрытый</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСерверГлобальный</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
+  <exchangePlans>ExchangePlan.ПланОбмена1</exchangePlans>
+  <commonForms>CommonForm.ОбщаяФорма1</commonForms>
+  <catalogs>Catalog.Справочник1</catalogs>
+  <documents>Document.Документ1</documents>
+  <enums>Enum.Перечисление1</enums>
+  <reports>Report.Отчет1</reports>
+  <dataProcessors>DataProcessor.Обработка1</dataProcessors>
+  <informationRegisters>InformationRegister.РегистрСведений1</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопления1</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристик1</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов1</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухгалтерии1</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета1</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.РегистрРасчета1</calculationRegisters>
+  <businessProcesses>BusinessProcess.БизнесПроцесс1</businessProcesses>
+  <tasks>Task.Задача1</tasks>
+</mdclass:Configuration>

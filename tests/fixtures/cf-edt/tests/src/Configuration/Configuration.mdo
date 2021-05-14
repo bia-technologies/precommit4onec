@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e329b97f-6229-4216-b047-ca0ffe03cb04">
+  <name>pc_test_ext</name>
+  <synonym>
+    <key>ru</key>
+    <value>pc_test_ext</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <modalityUseMode>Checked</modalityUseMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="597b4e0d-618a-4f16-9c81-b4e4066e3d82"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2ee241af-d177-4c5a-bdd0-ad37a325e9f9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e58a236a-d2d2-4712-986d-09adc84aaa18"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f767d5bc-4052-47c6-b2da-49f0357b4bcf"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bbb720ac-fe1b-47ff-944f-4e57bb77bd87"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="360cbe06-d304-4b9e-bc3c-e34841ec4c6d"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>pc_test_ext_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="fbfe6f58-fb80-4d94-aebe-5a7dced0a590">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОМ_ОбщийМодульКлиентЧастичноПокрытый</commonModules>
+  <commonModules>CommonModule.ОМ_ОбщийМодульСерверГлобальныйЧастичноПокрытый</commonModules>
+</mdclass:Configuration>
