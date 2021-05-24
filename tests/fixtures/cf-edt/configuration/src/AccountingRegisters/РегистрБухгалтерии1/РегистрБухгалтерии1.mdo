@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de9dd4a0-f125-434f-8ae5-65fae3d3fcc5">
+  <producedTypes>
+    <selectionType typeId="6a18e8b8-2590-4360-91fe-bac761e17174" valueTypeId="185705e9-2245-4bc6-be51-a225c3bf6077"/>
+    <listType typeId="6c064f1e-6c7e-47c4-9194-ce1970529314" valueTypeId="2168be2a-e762-438c-bde1-fd6b721b42cc"/>
+    <managerType typeId="2f19f72f-996c-455b-be40-dba8e3c6ce4a" valueTypeId="07d0bd3c-4fdf-4789-80c1-a0076f3e341c"/>
+    <recordSetType typeId="f2aed945-8a80-475e-8804-c9827bf9f74f" valueTypeId="2fe955f2-5b56-41a2-8ce3-2fd3941a78bb"/>
+    <recordKeyType typeId="bd9fbe9b-5d1a-40d5-b398-10368499c35a" valueTypeId="2dc2db79-4f35-495c-a495-eaef4dd8b13d"/>
+    <recordType typeId="ae9f817a-2a3d-47b3-8cfd-e123e54725f4" valueTypeId="90809172-87d3-40ca-8c12-a0f29ba0c484"/>
+    <extDimensionsType typeId="1d590454-783c-49f4-b27c-40c37da74821" valueTypeId="d96cd78e-3987-43c2-bb21-f56b9b04e521"/>
+  </producedTypes>
+  <name>РегистрБухгалтерии1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр бухгалтерии1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.ПланСчетов1</chartOfAccounts>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="51c20b93-b53a-46b8-9d9d-6e2204a278ce">
+    <name>Измерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </dimensions>
+  <resources uuid="646d04ae-878d-4883-b207-059288b033f0">
+    <name>Ресурс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

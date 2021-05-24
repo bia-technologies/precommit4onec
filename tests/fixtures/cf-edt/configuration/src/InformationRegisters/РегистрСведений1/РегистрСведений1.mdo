@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ae62d7b-4af0-4e12-bbfe-b090e39f5449">
+  <producedTypes>
+    <selectionType typeId="21e7aac3-c837-4c47-81fa-81d5e1f9d7b6" valueTypeId="17ed2ded-fd25-4109-b61b-ddb34806e5f5"/>
+    <listType typeId="50502ab3-48bc-4ec5-b55f-1f19e5d3680e" valueTypeId="58a9e899-4764-4749-9c9c-1d3ccc1e1bb7"/>
+    <managerType typeId="c34d007e-cfb1-4b80-8489-5cfbfb5091ac" valueTypeId="9c99d461-13da-4780-91c4-4f5340664b5f"/>
+    <recordSetType typeId="85db3d61-363d-4caa-aaba-aa91ebe8a60a" valueTypeId="88240d5f-b5a0-4059-b457-5ccfd1cdbcf8"/>
+    <recordKeyType typeId="bc29afdf-0cdd-4177-a7d7-c3a54ed3e617" valueTypeId="f11487c8-84c7-45b0-a6fb-f57e31a5e102"/>
+    <recordType typeId="6102f267-ecb8-466f-a772-9216435e52cc" valueTypeId="3674fe8a-3b63-4f37-b369-b9e670ef26e9"/>
+    <recordManagerType typeId="40895af3-50a6-4740-9642-cbe305806135" valueTypeId="a75477d0-f786-4626-98d5-15017522d8ab"/>
+  </producedTypes>
+  <name>РегистрСведений1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр сведений1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="90c4a005-ded5-4801-a975-b0334f485a53">
+    <name>Измерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
