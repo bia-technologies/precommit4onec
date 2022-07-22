@@ -37,7 +37,7 @@
 ###### **Интерактивная обработка**. 
 
   Для обработки **измененных, но неиндексированных файлов epf erf cfe** можно воспользоваться командой вида
-  `oscript "C:\`Program` Files\OneScript\lib\precommit4onec\src\main.os" precommit ./ -source-dir "src" -interactive`
+  `oscript "C:\Program Files\OneScript\lib\precommit4onec\src\main.os" precommit ./ -source-dir "src" -interactive`
 
 Для использования  режима  интерактивной обработки <b>установка precommit-hook'а в репозиторий не нужна</b>.
 
