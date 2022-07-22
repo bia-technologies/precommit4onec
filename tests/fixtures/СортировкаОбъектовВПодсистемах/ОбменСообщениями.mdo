@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2edbdac-d85f-4cc3-8680-4a2ab5720cb0">
+  <name>ОбменСообщениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен сообщениями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит подсистемы </value>
+  </explanation>
+  <subsystems>Подсистема1</subsystems>
+  <subsystems>Подсистема2</subsystems>
+  <subsystems>Подсистема3</subsystems>
+  <subsystems>Подсистема4</subsystems>
+  <subsystems>Подсистема5</subsystems>
+  <subsystems>AПодсистема5</subsystems>
+  <parentSubsystem>Subsystem.Подсистемы</parentSubsystem>
+</mdclass:Subsystem>
