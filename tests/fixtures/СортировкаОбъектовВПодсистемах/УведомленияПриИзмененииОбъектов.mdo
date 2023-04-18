@@ -14,5 +14,6 @@
   <content>CommonModule.УведомленияПереопределяемый</content>
   <content>Catalog.ВидыУведомлений</content>
   <content>CommonModule.УведомленияСерверПовтИсп</content>
+  <content>ExternalDataSource.ТекущаяСУБД.Table.ИнформацияОбОшибках</content>
   <parentSubsystem>Subsystem.ПодсистемыБСП.Subsystem.ОбменСообщениями</parentSubsystem>
 </mdclass:Subsystem>
