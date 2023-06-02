@@ -7,13 +7,12 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.Уведомления</content>
-  <content>4308b2f2-9e92-486e-8c34-13c11fd5fb49</content>
-  <content>CommonModule.УведомленияСервер</content>
-  <content>Constant.АдресатыПолучения</content>
-  <content>CommonModule.УведомленияПереопределяемый</content>
   <content>Catalog.ВидыУведомлений</content>
+  <content>CommonModule.Уведомления</content>
+  <content>CommonModule.УведомленияПереопределяемый</content>
+  <content>CommonModule.УведомленияСервер</content>
   <content>CommonModule.УведомленияСерверПовтИсп</content>
+  <content>Constant.АдресатыПолучения</content>
   <content>ExternalDataSource.ТекущаяСУБД.Table.ИнформацияОбОшибках</content>
   <parentSubsystem>Subsystem.ПодсистемыБСП.Subsystem.ОбменСообщениями</parentSubsystem>
 </mdclass:Subsystem>
