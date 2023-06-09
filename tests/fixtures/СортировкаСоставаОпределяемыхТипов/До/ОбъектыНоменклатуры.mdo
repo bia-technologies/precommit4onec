@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6261fb7c-b5f6-405b-886d-b761e0e872f7">
+  <producedTypes>
+    <containerType typeId="8c12e442-e1b5-4c26-8d50-947c7ec561bb" valueTypeId="c3cbaacd-a73f-4f3d-8295-425754ce59ad"/>
+  </producedTypes>
+  <name>ОбъектыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты номенклатуры</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <types>4308b2f2-9e92-486e-8c34-13c11fd5fb49</types>
+    <types>CatalogRef.Константы</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

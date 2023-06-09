@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fd93fc6-9b84-48b0-a859-7c1c41084bbe">
+  <producedTypes>
+    <containerType typeId="5101544e-698b-4a59-a816-5499c60ed9d6" valueTypeId="a924fbae-e4a2-44e7-a182-615ff7613399"/>
+  </producedTypes>
+  <name>ДоговорыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры клиентов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+  </type>
+</mdclass:DefinedType>

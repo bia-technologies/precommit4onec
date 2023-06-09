@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c8742d0-ec69-417e-9e1e-83c73ee44784">
+  <producedTypes>
+    <containerType typeId="fad7ac05-a1ce-4e57-baf6-64aeae364412" valueTypeId="53e61b4f-4418-4f3f-9933-858dae330a90"/>
+  </producedTypes>
+  <name>ПлатежныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаявкаНаЧекКоррекции</types>
+    <types>DocumentRef.КассоваяСмена</types>
+    <types>DocumentRef.ЧекККМ</types>
+  </type>
+</mdclass:DefinedType>
