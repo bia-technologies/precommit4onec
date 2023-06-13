@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="668ad2d6-fb27-41f1-9e60-89a868bce5b2" thisNode="668ad2d6-fb27-41f1-9e60-89a868bce5b2">
+  <producedTypes>
+    <objectType typeId="21265e40-a693-446d-afb1-0c929eaa966f" valueTypeId="5e424aeb-d57f-403e-9e8b-a7f1b70d9f97"/>
+    <refType typeId="e7ca8c1d-a96e-47d0-874c-76b607c99cb6" valueTypeId="fbf2ac9e-f68f-49ae-ba53-d6bce30ecda6"/>
+    <selectionType typeId="bf12f619-d3ca-43d0-b1d5-721622ad233d" valueTypeId="cb22dd4a-dbb9-4277-8e58-7bcf8eb3dbf1"/>
+    <listType typeId="20c6fb41-b970-43bf-a02d-b715d156f4dc" valueTypeId="6eaf0413-9ebb-472b-a8bb-e985387dc197"/>
+    <managerType typeId="3cc113f9-ba86-4b95-8b7a-a13fc41b5f18" valueTypeId="bfe79822-f473-421d-ba24-3a97f5205980"/>
+  </producedTypes>
+  <name>ИзмененияETL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения ETL</value>
+  </synonym>
+  <inputByString>ExchangePlan.ИзмененияETL.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ИзмененияETL.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillChecking>ShowError</fillChecking>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillChecking>ShowError</fillChecking>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillChecking>ShowError</fillChecking>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <codeLength>5</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>5</descriptionLength>
+  <content>
+    <mdObject>Catalog.СценарииПереносаДанных</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ТипыДанныхШины</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СозданныеИндексыСУБД</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Пункты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ТипыЗначенийВидовПравДоступа</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗемельныеУчастки</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Помещения</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Дома</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ПользователиСистемы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.АдресаИМестаРасчета</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+ <content>
+    <mdObject>Document.КассоваяСмена</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ЧекККМ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.КассовыеСмены</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОчередьЧековККМ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОФДЧекиККМ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОФДКассовыеСмены</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежноеПоручение</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УчетФН</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ЗаявкаНаЧекКоррекции</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиВнешнегоХраненияТаблиц</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ИзмененияETL.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ИзмененияETL.Form.ФормаСписка</defaultListForm>
+  <forms uuid="c05efe7c-a595-4114-96b2-1931dadd181c">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5748ef1d-efb2-49ba-9a03-0c03e86fcbd2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>
