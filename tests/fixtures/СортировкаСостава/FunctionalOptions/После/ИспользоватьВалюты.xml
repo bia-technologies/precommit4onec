@@ -13,15 +13,15 @@
 			<Location>Constant.ИспользоватьВалюты</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
+				<xr:Object>Catalog.Валюты</xr:Object>
 				<xr:Object>Catalog.Валюты.Command.ИсторияКурсов</xr:Object>
 				<xr:Object>Catalog.Валюты.Command.ОткрытьФормуСписка</xr:Object>
-				<xr:Object>Catalog.Валюты</xr:Object>
 				<xr:Object>Constant.ЗагружатьКурсыВалютССервера1С</xr:Object>
+				<xr:Object>DataProcessor.ЗагрузкаКурсовВалют</xr:Object>
 				<xr:Object>DataProcessor.ЗагрузкаКурсовВалют.Attribute.НачалоПериодаЗагрузки</xr:Object>
 				<xr:Object>DataProcessor.ЗагрузкаКурсовВалют.Attribute.ОкончаниеПериодаЗагрузки</xr:Object>
 				<xr:Object>DataProcessor.ЗагрузкаКурсовВалют.Command.ЗагрузкаКурсовВалют</xr:Object>
 				<xr:Object>DataProcessor.ЗагрузкаКурсовВалют.TabularSection.СписокВалют</xr:Object>
-				<xr:Object>DataProcessor.ЗагрузкаКурсовВалют</xr:Object>
 				<xr:Object>InformationRegister.КурсыВалют</xr:Object>
 			</Content>
 		</Properties>

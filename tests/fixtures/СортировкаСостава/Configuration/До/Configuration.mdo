@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41666959-5fc4-4747-91f0-3822f7a0b946">
+  <name>БСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартный функционал для платформы 8.3</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5c80671c-f39f-4ad2-a052-d581a409ba9a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3a6721bd-3e99-4d45-9d3f-b7e27646a270"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3cea05b4-2b60-4011-9a7e-0a4e7c7072a5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e31e85ff-4814-4fbb-8281-ab1dda6f9b49"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6ffe130e-150c-444a-9a23-e45d9796c227"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7698577d-c059-4e2a-bb13-eae54186404c"/>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Администратор</defaultRoles>
+  <vendor>BIA Technologies, LLC</vendor>
+  <version>23.04</version>
+  <updateCatalogAddress>bia-tech/bspsingle</updateCatalogAddress>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <defaultReportForm>CommonForm.ОбщаяФормаОтчета</defaultReportForm>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Набор стандартного функционала</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Набор стандартного функционала и стандартизированных программных и пользовательских интерфейсов</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>© ООО &quot;БиАйЭй-Технолоджиз&quot; (BIA-Technologies LLC). 2014-2021. Все права защищены. Все торговые марки являются собственностью их правообладателей.</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>www.bia-tech.ru</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://twiki.dellin.ru/pages/viewpage.action?pageId=34024487</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <defaultConstantsForm>CommonForm.НастройкаСистемы</defaultConstantsForm>
+  <languages uuid="0b7b58cc-8735-4028-87fa-23727af3e772">
+    <name>Русский2</name>
+    <synonym>
+      <key>ru2</key>
+      <value>Русский2</value>
+    </synonym>
+    <languageCode>ru2</languageCode>
+  </languages>
+  <languages uuid="0b7b58cc-8735-4028-87fa-23727af3e779">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages><subsystems>Subsystem.ПодсистемыБСП</subsystems><subsystems>Subsystem.Пользователь</subsystems>
+  <subsystems>Subsystem.ТехническаяПоддержка</subsystems>
+  <subsystems>Subsystem.ИнструментыРазработчика</subsystems>
+  <commonPictures>CommonPicture.Администрирование_48</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <commonPictures>CommonPicture.СостояниеЗадания01</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПользователя01</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПользователя02</commonPictures>
+  <commonPictures>CommonPicture.СостоянияПользователейКоллекция</commonPictures>
+  <commonPictures>CommonPicture.УдалитьПереносСтроки</commonPictures>
+  <commonPictures>CommonPicture.ФункциональнаяОпция</commonPictures>
+  <commonPictures>CommonPicture.Роль</commonPictures>
+  <commonPictures>CommonPicture.GUID</commonPictures>
+  <commonPictures>CommonPicture.ЭДО</commonPictures>
+  <sessionParameters>SessionParameter.ЗамерыПроизводительности</sessionParameters>
+  <sessionParameters>SessionParameter.ВремяЗаписиПоследнегоЗаписанногоОбъекта</sessionParameters>
+  <sessionParameters>SessionParameter.ГруппыДоступаПользователя</sessionParameters>
+  <sessionParameters>SessionParameter.ИмяКомпьютераПользователя</sessionParameters>
+  <roles>Role.ОткрытиеВнешнихОбработокИОтчетов</roles>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Пользователь</roles>
+  <commonTemplates>CommonTemplate.ШаблонОтчетаПоискДанныхДляГенерации</commonTemplates>
+  <commonTemplates>CommonTemplate.ЭталонРазмеровПечати</commonTemplates>
+  <filterCriteria>FilterCriterion.ПодчиненныеДокументы</filterCriteria>
+  <commonModules>CommonModule.ИнтеграцияETL_MSSQL</commonModules>
+  <commonModules>CommonModule.ИнтеграцияETL_PostgreSQL</commonModules>
+  <commonModules>CommonModule.ИнтеграцияETLПолныеПрава</commonModules>
+  <commonModules>CommonModule.ИнтеграцияS3</commonModules>
+  <commonModules>CommonModule.ИнтеграцияS3КлиентСервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияS3Сервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияОбщий</commonModules>
+  <commonModules>CommonModule.ИнтеграцияADODB</commonModules>
+  <commonModules>CommonModule.ИнтеграцияCDI</commonModules>
+  <commonModules>CommonModule.ИнтеграцияCDIКлиентСервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияETL</commonModules>
+  <commonModules>CommonModule.ИнтеграцияОбщийПереопределяемый</commonModules>
+  <commonModules>CommonModule.ИнтеграцияОбщийСервер</commonModules>
+  <exchangePlans>ExchangePlan.ТрансляцияИзменений</exchangePlans>
+  <exchangePlans>ExchangePlan.ИзмененияETL</exchangePlans>
+  <xDTOPackages>XDTOPackage.global_dellin</xDTOPackages>
+  <xDTOPackages>XDTOPackage.global_dellin_objects</xDTOPackages>
+  <webServices>WebService.bus_DataReceiving</webServices>
+  <webServices>WebService.ancillary</webServices>
+  <httpServices>HTTPService.YAX</httpServices>
+  <httpServices>HTTPService.tuning</httpServices>
+  <eventSubscriptions>EventSubscription.ПриЗаписиПлановВидовРасчета</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПриЗаписиНабораЗаписейРегистраСведений</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.РоботАвтоматическаяЧисткаВерсийОбъектов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.РоботАвтоматическаяОбработкаИзмененийАдресногоКлассификатора</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьОнлайнКассы</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьМеханизмыРаботыСФайлами</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьНастраиваемыйПереносДанных</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьОтладочныйРежим</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ОбъектМетаданных</functionalOptionsParameters>
+  <definedTypes>DefinedType.ТипЗначенияКонтактнойИнформации</definedTypes>
+  <definedTypes>DefinedType.ТипКодКЛАДР</definedTypes>
+  <definedTypes>DefinedType.ТипВладелецПрикрепленныхФайлов</definedTypes>
+  <commonCommands>CommonCommand.ДвиженияОбъекта</commonCommands>
+  <commonCommands>CommonCommand.ДеревоДокументов</commonCommands>
+  <commonCommands>CommonCommand.АудиторскийСлед</commonCommands>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <constants>Constant.УдалятьРегистрациюИзмененийСредствамиСУБД</constants>
+  <constants>Constant.ТранслитерироватьСМС</constants>
+  <constants>Constant.ФорматЗагрузкиКлассификатораБанков</constants>
+  <commonForms>CommonForm.УправлениеБлокировкойСеансов</commonForms>
+  <commonForms>CommonForm.УправлениеНастройкамиПользователей</commonForms>
+  <commonForms>CommonForm.СправкаОбъекта</commonForms>
+  <catalogs>Catalog.СозданныеИндексыСУБД</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СообщенияПоОбъекту</catalogs>
+  <documents>Document.ПлатежноеПоручение</documents>
+  <enums>Enum.УровниВажностиПочтовогоСообщения</enums>
+  <enums>Enum.УровниПриоритетовОшибок</enums>
+  <enums>Enum.ПровайдерыОтправкиСМС</enums>
+  <enums>Enum.ПротоколыЭлектроннойПочты</enums>
+  <enums>Enum.СостояниеНастройкиОбмена</enums>
+  <enums>Enum.СостоянияВыполненияРегламентногоЗадания</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СтатусыЗаявкиНаЧекКоррекции</enums>
+  <reports>Report.ПоискДанных</reports>
+  <reports>Report.СтатистикаИспользованияИндОтчетовИОбработок</reports>
+  <dataProcessors>DataProcessor.СравнениеСтрокТекста</dataProcessors>
+  <dataProcessors>DataProcessor.СтруктураХраненияДанных</dataProcessors>
+  <dataProcessors>DataProcessor.СозданиеКонтрагентовПоИНН</dataProcessors>
+  <dataProcessors>DataProcessor.УниверсальныйПодборИОбработкаОбъектов</dataProcessors>
+  <informationRegisters>InformationRegister.СообщенияYAX</informationRegisters>
+  <informationRegisters>InformationRegister.УчетФН</informationRegisters>
+  <informationRegisters>InformationRegister.СобытияДляШины</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.КассовыеСмены</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ТипыЗначенийВидовПравДоступа</chartsOfCharacteristicTypes>
+  <externalDataSources>ExternalDataSource.ТекущаяСУБД</externalDataSources>
+</mdclass:Configuration>
