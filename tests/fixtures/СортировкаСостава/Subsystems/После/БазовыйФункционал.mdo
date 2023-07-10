@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e847cc8a-a9f6-485f-b71f-305844be437d">
+  <name>БазовыйФункционал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовый функционал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит подсистемы с базовым функционалом и инструментами без которых существование системы невозможно.</value>
+  </explanation>
+  <subsystems>НастройкиПользователей</subsystems>
+  <subsystems>ОбщегоНазначения</subsystems>
+  <subsystems>УправлениеДоступом</subsystems>
+  <subsystems>Преобразования</subsystems>
+  <parentSubsystem>Subsystem.ПодсистемыБСП</parentSubsystem>
+</mdclass:Subsystem>

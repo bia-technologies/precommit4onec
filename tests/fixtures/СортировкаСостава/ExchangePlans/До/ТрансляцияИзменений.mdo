@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e7e28aa-bd76-45ac-b271-d46159d1145c" thisNode="8cc91018-df6f-49fb-ad7a-aceb4ba96814">
+  <producedTypes>
+    <objectType typeId="55f2e1ca-1a1d-4262-b96c-48c81a1baeca" valueTypeId="b87705a9-2d89-4095-b336-70dbd0751787"/>
+    <refType typeId="2bd7209c-8b21-4d17-9f34-ed573db0b1fe" valueTypeId="ba39c1a7-1a5f-44e0-931c-c0b657971888"/>
+    <selectionType typeId="3d4a08e7-ad6f-4619-a9e9-d43aef11cb02" valueTypeId="6f177deb-ad3a-4cbc-af50-d2a4c2e260d9"/>
+    <listType typeId="47087363-0e94-4af9-b9c7-37815d98c294" valueTypeId="b2224500-7bf2-463a-af4a-880f72d91ebe"/>
+    <managerType typeId="1267b6c4-852c-417f-9dc1-b1001bcbe9aa" valueTypeId="63eb7598-290e-42c7-9bab-28dfafee83c6"/>
+  </producedTypes>
+  <name>ТрансляцияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трансляция изменений</value>
+  </synonym>
+  <inputByString>ExchangePlan.ТрансляцияИзменений.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ТрансляцияИзменений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>DontUse</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>DontUse</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>DontUse</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <codeLength>6</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.ИнформацияОбОшибках</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Банки</mdObject>
+  </content>
+  <content>
+    <mdObject>4c8d0fba-2efb-4aee-8e0a-d3cf05a6bc50</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежноеПоручение</mdObject>
+  </content>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ТрансляцияИзменений.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ТрансляцияИзменений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ExchangePlan.ТрансляцияИзменений.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4c8d0fba-2efb-4aee-8e0a-d3cf05a6bc54">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="c4f3f8dc-a766-488f-955b-f80f6b2b6f59">
+    <name>ИдентификаторБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <tabularSections uuid="405ef7ef-c86a-46e9-9519-35f3b67585ea">
+    <producedTypes>
+      <objectType typeId="e43d82e0-f310-4592-a240-3eebdd1b0100" valueTypeId="5b272b36-182b-4b52-ada3-87e6e0dbea5a"/>
+      <rowType typeId="5aa45930-1c48-4951-a894-781befb4bca2" valueTypeId="a31edb31-42b8-47d6-ad5a-48ec94f11a5a"/>
+    </producedTypes>
+    <name>ПолучаемыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получаемые объекты</value>
+    </synonym>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>DontUse</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="50d81265-0b82-4759-aac9-8d781ab3bc35">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Метаданные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="030d6c98-3975-4e9a-8ba4-5e7a41355a53">
+      <name>НеРегистрироватьСОбменДанными</name>
+      <synonym>
+        <key>ru</key>
+        <value>Не регистрировать с обмен данными</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="454477cf-0c5a-49cd-84ac-a0acd961d500">
+      <name>УсловиеРегистрации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Условие регистрации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Алгоритмы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2cb5a5b9-338c-43cb-b401-82114eef08a9">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a8670e5f-bbc0-4dd2-9a45-2ed82130853d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d767723-fdba-428d-9761-a8b39d1f3c98">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fbb48dc8-b047-4ae3-b6bc-727de617b7bd">
+    <name>МакетАлгоритмаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет алгоритма запроса</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="3c7af789-d228-4243-9201-22cd8d8207d1">
+    <name>ОткрытьФормуСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трансляция изменений</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Sort</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ExchangePlan>

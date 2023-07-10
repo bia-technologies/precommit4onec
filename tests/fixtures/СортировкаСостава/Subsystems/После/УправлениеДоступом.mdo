@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e131a67-a19f-48c1-9125-dcd9a0fc2b28">
+  <name>УправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит инструментарий для разграничения и управления доступом пользователей</value>
+  </explanation>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
+  <content>CommonForm.Авторизация</content>
+  <content>CommonModule.ПолныеПраваУправлениеПользователями</content>
+  <content>CommonModule.УправлениеДоступомКлиент</content>
+  <content>CommonModule.УправлениеДоступомОбщий</content>
+  <content>CommonModule.УправлениеДоступомПереопределяемый</content>
+  <content>CommonModule.УправлениеДоступомСервер</content>
+  <content>CommonModule.УправлениеДоступомСерверПовторногоИспользования</content>
+  <content>Constant.ИспользуютсяПраваДоступаПоГруппам</content>
+  <content>DataProcessor.НастройкаПравДоступа</content>
+  <content>InformationRegister.ЗначенияПравДоступа</content>
+  <content>InformationRegister.ЗначенияПравДоступаПоОбъектам</content>
+  <content>Report.АнализПравДоступаПользователей</content>
+  <content>Role.Администратор</content>
+  <content>Role.ОткрытиеВнешнихОбработокИОтчетов</content>
+  <content>Role.Пользователь</content>
+  <content>Role.ТехническийОтдел</content>
+  <content>Role.УправлениеДоступомИнструментыРазработчикаПросмотр</content>
+  <content>Role.УправлениеДоступомПользователь</content>
+  <content>Role.УправлениеДоступомПользовательПросмотр</content>
+  <content>Role.УправлениеДоступомТехническаяПоддержкаПросмотр</content>
+  <content>SessionParameter.ГруппыДоступаПользователя</content>
+  <content>SessionParameter.ПраваДоступаПользователя</content>
+  <content>SessionParameter.ПраваДоступаПользователяПоОбъектам</content>
+  <content>Catalog.ВидыПравДоступа</content>
+  <content>ChartOfCharacteristicTypes.ТипыЗначенийВидовПравДоступа</content>
+  <parentSubsystem>Subsystem.ПодсистемыБСП.Subsystem.БазовыйФункционал</parentSubsystem>
+</mdclass:Subsystem>
