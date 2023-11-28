@@ -23,5 +23,5 @@
 	И Содержимое файла <Исходный файл> и файла <Конечный файл> разное
 Примеры:
 	|	Исходный файл			|	Конечный файл		|	Bom	|
-	|	tests\fixtures\NoBom.bsl|	NoBom.bsl			|	Нет	|
-	|	tests\fixtures\Bom.bsl	|	Bom.bsl				|	Да	|
+	|	tests/fixtures/NoBom.bsl|	NoBom.bsl			|	Нет	|
+	|	tests/fixtures/BOM.bsl	|	BOM.bsl				|	Да	|

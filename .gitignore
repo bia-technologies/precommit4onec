@@ -4,3 +4,6 @@ bdd-log.xml
 exec.log
 .vscode/
 /tests.xml
+/oscript_modules
+/reports/
+/coverage/
