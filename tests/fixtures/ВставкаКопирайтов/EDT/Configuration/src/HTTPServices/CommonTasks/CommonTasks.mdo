@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3df65590-1512-42b0-89a6-331dffa36191">
+  <name>CommonTasks</name>
+  <synonym>
+    <key>ru</key>
+    <value>Common tasks</value>
+  </synonym>
+  <rootURL>CommonTasks</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="3bb2d7e0-ebbe-422c-8e1a-51d4931ad813">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="0ece00e4-48d0-48ad-a939-2d7cbec9e158">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PingGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
