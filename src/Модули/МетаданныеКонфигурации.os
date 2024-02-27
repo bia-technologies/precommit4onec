@@ -43,6 +43,7 @@
 		КаталогиТиповМетаданных.Добавить("FunctionalOptionsParameters", "FunctionalOptionsParameter");
 		КаталогиТиповМетаданных.Добавить("HTTPServices", "HTTPService");
 		КаталогиТиповМетаданных.Добавить("InformationRegisters", "InformationRegister");
+		КаталогиТиповМетаданных.Добавить("Interfaces", "Interface");
 		КаталогиТиповМетаданных.Добавить("Reports", "Report");
 		КаталогиТиповМетаданных.Добавить("Roles", "Role");
 		КаталогиТиповМетаданных.Добавить("ScheduledJobs", "ScheduledJob");
