@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a773c45-23df-4559-bba7-d2e0bf951129" extendedConfigurationObject="8a01012d-a773-47ff-80a3-fbe494caa861">
+  <producedTypes>
+    <containerType typeId="8df943bf-bcf8-4fc1-951d-eb0ca3422f99" valueTypeId="b4042d7d-7c89-46bd-a2e6-7c07c175e08c"/>
+  </producedTypes>
+  <name>РасчетныйСчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.РасчетныеСчета</type>
+      </types>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.РасчетныеСчетаКонтрагентов</type>
+      </types>
+      <types>
+        <state>Extended</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

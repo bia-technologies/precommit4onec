@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad6598ce-16bd-4ed0-9d67-0244233bcaf5" extendedConfigurationObject="01997809-c86f-4db8-bfad-b6510c15aeeb" thisNode="b72f3741-9c9c-429e-9ab0-1730ba0e3075">
+  <producedTypes>
+    <objectType typeId="473717ee-ce13-46e8-b3bd-c434bbc8284f" valueTypeId="f08abdc4-01c5-4b78-862f-89fafb8b410b"/>
+    <refType typeId="c855654a-5dc0-40ba-ac08-d8a8236a1f52" valueTypeId="8fc6acd7-032e-4be9-a41e-1075f4944578"/>
+    <selectionType typeId="54258288-4e2d-4172-a735-e77a246fa8c8" valueTypeId="88823615-4e1e-4f9a-b04b-a123fd150451"/>
+    <listType typeId="732b68e9-0156-4cb0-b9a7-c5575fc0b271" valueTypeId="7d79be65-06fa-4440-a5b1-5e372687884e"/>
+    <managerType typeId="a0ca7c85-19de-4699-a1fb-cb0671d5d954" valueTypeId="306b1e6c-d90b-4715-8522-1a660fdbdf4a"/>
+  </producedTypes>
+  <name>Мобильные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Checked</content>
+  </extension>
+  <content>
+    <mdObject>Catalog.Банки</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.РасчетныеСчета</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.РасчетныеСчетаКонтрагентов</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Document.КорректировкаРасчетов</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Document.Оплата</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+    <autoRecord>Allow</autoRecord>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Extended</mdObject>
+    </extension>
+  </content>
+  <tabularSections uuid="772887ca-4e7c-4e42-a405-c82d8c7cb70c">
+    <producedTypes>
+      <objectType typeId="f0ec6009-ea73-4652-9597-f2d89dc6e781" valueTypeId="054025ad-ef8a-4be7-abec-e0cd2a7b9be8"/>
+      <rowType typeId="6ad7bde2-883a-49d3-a081-ed34f4759dd6" valueTypeId="723dbd21-ecf3-421e-b4ce-02d964c722d5"/>
+    </producedTypes>
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <attributes uuid="59461217-4753-4c84-a921-a356e4f29a76">
+      <name>РасчетныйСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расчетный счет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РасчетныеСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:ExchangePlan>
