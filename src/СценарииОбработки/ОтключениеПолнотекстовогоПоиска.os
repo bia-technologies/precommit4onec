@@ -184,7 +184,7 @@
 
 Функция ОбработатьСтандартныеАтрибуты(СодержимоеФайла, Исключения)
 	
-	СтандартныеАтрибуты = "Attribute name=""([а-яa-zA-ZА-Я0-9_]+)"">[\w\W]+?((<xr:FullTextSearch>(Use)<\/xr:FullTextSearch>)|<\/xr:StandardAttribute>)";
+	СтандартныеАтрибуты = "Attribute name=""([а-яёa-zA-ZА-ЯЁ0-9_]+)"">[\w\W]+?((<xr:FullTextSearch>(Use)<\/xr:FullTextSearch>)|<\/xr:StandardAttribute>)";
 	
 	Регексп = Новый РегулярноеВыражение(СтандартныеАтрибуты);
 	Регексп.ИгнорироватьРегистр = Истина;
@@ -208,7 +208,7 @@
 
 Функция ОбработатьРеквизиты(СодержимоеФайла, Исключения)
 	
-	ПоискРеквизиты = "<Name>([а-яa-zA-ZА-Я0-9_]+)<\/Name>[\w\W]+?(<FullTextSearch>(Use)<\/FullTextSearch>)|<\/Properties>|<\/attributes>";
+	ПоискРеквизиты = "<Name>([а-яёa-zA-ZА-ЯЁ0-9_]+)<\/Name>[\w\W]+?(<FullTextSearch>(Use)<\/FullTextSearch>)|<\/Properties>|<\/attributes>";
 	
 	Регексп = Новый РегулярноеВыражение(ПоискРеквизиты);
 	Регексп.ИгнорироватьРегистр = Истина;
@@ -234,12 +234,12 @@
 	
 	Если ЭтоEDT Тогда
 		
-		Шаблон = "<\/producedTypes>\s+<name>([а-яa-zA-ZА-Я0-9_]+)<\/name>|(<Name>)([а-яa-zA-ZА-Я0-9_]+)<\/Name>|(<FullTextSearch>)(Use)<\/FullTextSearch>";
+		Шаблон = "<\/producedTypes>\s+<name>([а-яёa-zA-ZА-ЯЁ0-9_]+)<\/name>|(<Name>)([а-яёa-zA-ZА-ЯЁ0-9_]+)<\/Name>|(<FullTextSearch>)(Use)<\/FullTextSearch>";
 		ШаблонЗамены = "(<\/producedTypes>\s+<name>%1<\/name>[\w\W]+?<Name>%2<\/Name>[\w\W]+?)";
 		
 	Иначе
 		
-		Шаблон =  "TabularSection\.[\w\W]+?\.([\w\W]+?)""|(<Name>)([а-яa-zA-ZА-Я0-9_]+)<\/Name>|(<FullTextSearch>)(Use)<\/FullTextSearch>";
+		Шаблон =  "TabularSection\.[\w\W]+?\.([\w\W]+?)""|(<Name>)([а-яёa-zA-ZА-ЯЁ0-9_]+)<\/Name>|(<FullTextSearch>)(Use)<\/FullTextSearch>";
 		ШаблонЗамены = "(TabularSection\.[\w\W]+?\.%1""[\w\W]+?<Name>%2<\/Name>[\w\W]+?)";
 		
 	КонецЕсли;

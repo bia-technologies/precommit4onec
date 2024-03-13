@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1aac0d74-8d8e-4842-87c3-16db38bf5942" extendedConfigurationObject="02d4e175-d98d-4f48-89b8-61351535e9d4">
+  <name>Финансы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Catalog.Банки</content>
+  <content>Catalog.РасчетныеСчета</content>
+  <content>Catalog.РасчетныеСчетаКонтрагентов</content>
+  <content>Document.КорректировкаРасчетов</content>
+  <content>Document.Оплата</content>
+</mdclass:Subsystem>

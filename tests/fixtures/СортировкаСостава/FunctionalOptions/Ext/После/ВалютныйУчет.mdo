@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5dc8757d-f9ed-4aaf-ad2b-fc65fde6604e" extendedConfigurationObject="5ddb9715-14fa-4aec-9388-0d0778a6aed3">
+  <name>ВалютныйУчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Catalog.Организации.Attribute.ВалютныйУчет</location>
+  <content>Catalog.Валюты</content>
+  <content>Document.КорректировкаРасчетов</content>
+  <content>Document.Оплата</content>
+</mdclass:FunctionalOption>
