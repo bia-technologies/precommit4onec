@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.1/data/ui" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" version="2.7">
+	<Properties>
+		<Name>Форма</Name>
+		<Synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Форма</v8:content>
+			</v8:item>
+		</Synonym>
+	</Properties>
+</Form>
+
