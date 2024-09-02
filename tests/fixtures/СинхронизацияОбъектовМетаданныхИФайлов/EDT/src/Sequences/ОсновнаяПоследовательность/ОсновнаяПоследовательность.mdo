@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d04303b-771d-4451-a79c-8c8f21b51084">
+  <producedTypes>
+    <recordType typeId="c3d1af3f-7320-4b2b-9017-77387311cd8c" valueTypeId="55ac0910-d632-4383-b43c-0a8f87cf2268"/>
+    <managerType typeId="0707484c-7f65-4b2e-8e86-33f9a826124a" valueTypeId="75c2e6ba-9a93-433a-8af7-a9e88d855225"/>
+    <recordSetType typeId="6d87a5a6-0c92-44ae-8ce7-cb0ef7b03ad9" valueTypeId="6d58bae1-e819-4a6f-9e17-7a06759ba658"/>
+  </producedTypes>
+  <name>ОсновнаяПоследовательность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная последовательность</value>
+  </synonym>
+  <documents>Document.ТестовыйДокумент</documents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

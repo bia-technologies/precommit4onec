@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0b95f34-771a-4849-87c1-1f86c07c9797">
+  <producedTypes>
+    <objectType typeId="a542c7a8-7a0b-4d33-8875-2f018fdf544e" valueTypeId="0f03a6cc-6ded-4a3f-8080-c48f668fcb56"/>
+    <refType typeId="aa055bfe-5ba4-4261-995c-2be205d98603" valueTypeId="331f228a-c97f-4a75-8795-7136dc37204c"/>
+    <selectionType typeId="8ed0f08c-ba1c-4901-926d-e687888dd5ba" valueTypeId="2a805cf9-af3b-42a5-8aed-ac513da24f4e"/>
+    <listType typeId="a4f19b41-562a-49f2-b86e-78e153da78d3" valueTypeId="f29e9b1d-4240-4cc2-9270-35b00dcb4e74"/>
+    <managerType typeId="f48e4c2a-a39e-4e65-af1d-be019ff98fa8" valueTypeId="3a6a9d38-ef2d-4ce5-9764-44b5c79a1ec3"/>
+    <routePointRef typeId="251a336c-330a-4f5e-b9f8-b51f0cbe0eda" valueTypeId="2a828a67-b821-4705-8f49-bf4e33db56a4"/>
+  </producedTypes>
+  <name>ОсновнойПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной процесс</value>
+  </synonym>
+  <inputByString>BusinessProcess.ОсновнойПроцесс.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.Задача</task>
+</mdclass:BusinessProcess>

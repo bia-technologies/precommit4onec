@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="299b2661-9391-49de-8d38-cbf397bae344">
+  <producedTypes>
+    <managerType typeId="60a6ca4b-106e-4a8e-984d-a402a650cb44" valueTypeId="721890b2-ec1c-4760-a942-23099f6aa94c"/>
+    <tablesManagerType typeId="4c23f3b4-8c5b-4e28-af78-b01d6a8843c3" valueTypeId="26e0b223-7e06-49f2-abce-b345e62ac4df"/>
+    <cubesManagerType typeId="891f0561-14f8-4be7-9703-42d854df5cf2" valueTypeId="b4202b2e-3942-4a1d-a8dd-5b668a1dea25"/>
+  </producedTypes>
+  <name>ПодключениеКБазе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение к базе</value>
+  </synonym>
+</mdclass:ExternalDataSource>

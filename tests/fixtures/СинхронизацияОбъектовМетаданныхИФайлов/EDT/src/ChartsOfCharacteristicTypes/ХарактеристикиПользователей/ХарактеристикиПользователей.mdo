@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a880016-9db0-47e4-8a30-cfeb82f9bbba">
+  <producedTypes>
+    <objectType typeId="ea4b2819-5a3a-4bfb-bdf2-db11a63ff411" valueTypeId="782972a8-cf18-42b3-a790-cd4860e1748e"/>
+    <refType typeId="99eab212-8a08-4d2b-88e3-1043130bde0d" valueTypeId="148612dc-2b1b-4cda-9a5a-58dfbf23489e"/>
+    <selectionType typeId="d541b68d-07af-47af-804a-7671cb657cfb" valueTypeId="3e2fb7d0-248b-4d3b-b3eb-6015a28772a1"/>
+    <listType typeId="f1b2813d-6bbf-4288-8829-babf437a762a" valueTypeId="c95de9ce-c88c-4a35-9694-f871ffe79815"/>
+    <managerType typeId="a72f488a-9470-4a9b-bb26-a9fe4925e426" valueTypeId="0021bf5a-ab78-45c8-97cb-dfcb8cdc8f93"/>
+    <containerType typeId="ad76870e-1bc2-4e90-94c2-f92eaab6c30c" valueTypeId="cdfbf832-54bc-4ca1-897f-3114a38a700d"/>
+  </producedTypes>
+  <name>ХарактеристикиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики пользователей</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

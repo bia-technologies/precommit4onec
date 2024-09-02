@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416390d4-e896-4b54-934d-4689e5e7ff33">
+  <name>ДокументыИспользуются</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы используются</value>
+  </synonym>
+  <location>Constant.ДокументыИспользуются</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>
