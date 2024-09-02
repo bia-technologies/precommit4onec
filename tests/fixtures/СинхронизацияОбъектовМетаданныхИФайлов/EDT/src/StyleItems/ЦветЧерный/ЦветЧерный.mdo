@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="241ed4d0-3718-48ef-a636-5f4f27330c79">
+  <name>ЦветЧерный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет черный</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef"/>
+  </value>
+</mdclass:StyleItem>

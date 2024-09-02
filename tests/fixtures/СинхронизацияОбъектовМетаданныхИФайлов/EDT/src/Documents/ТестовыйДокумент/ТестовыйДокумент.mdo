@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7274d3d6-3dd1-4b04-9ed7-34c6484f0e82">
+  <producedTypes>
+    <objectType typeId="57a00396-50e4-444b-8078-e05df9e62d3c" valueTypeId="3f1937b2-34af-448c-a65a-cd86beee269e"/>
+    <refType typeId="3708f31a-b1d3-4650-87ee-435144666b8a" valueTypeId="21760161-3521-487c-9897-765aa1509ee4"/>
+    <selectionType typeId="72544e43-6778-476e-9b04-d431cc7bc710" valueTypeId="4b747200-dc49-452e-8b9a-f677137a3f81"/>
+    <listType typeId="89745963-7b5f-4f86-a11c-dc97757418e3" valueTypeId="1ef9b762-ba6a-4b14-91d2-a53b846a49cf"/>
+    <managerType typeId="257aa163-bf19-4a1d-9476-7ef0254149ed" valueTypeId="e94e8db2-f3d6-44d6-88fa-527cf098febf"/>
+  </producedTypes>
+  <name>ТестовыйДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый документ</value>
+  </synonym>
+  <inputByString>Document.ТестовыйДокумент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numerator>DocumentNumerator.ОбщийНумератор</numerator>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.РегистрРасчета</registerRecords>
+  <registerRecords>AccountingRegister.Бухгалтерский</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияДокументов</registerRecords>
+</mdclass:Document>

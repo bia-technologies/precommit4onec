@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bee1a1a-d399-48a1-9d0f-7a8fe2cbfec8">
+  <name>WebСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web сервис</value>
+  </synonym>
+  <namespace>web</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.ПакетXDTO</value>
+  </xdtoPackages>
+  <descriptorFileName>ws1.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+</mdclass:WebService>

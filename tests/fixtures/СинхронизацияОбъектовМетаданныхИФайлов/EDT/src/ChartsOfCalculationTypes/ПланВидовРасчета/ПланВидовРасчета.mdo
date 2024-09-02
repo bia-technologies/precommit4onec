@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29805477-a26f-4cbb-8fff-25b16e53ef80">
+  <producedTypes>
+    <objectType typeId="441766a5-ac4d-4df3-aec8-644c252dc26c" valueTypeId="74003653-99a9-4c48-83b4-c26dcf4cf932"/>
+    <refType typeId="612ef8fc-b511-4a77-92f5-4b584c238567" valueTypeId="13f6a20f-53d1-4bbb-8e2b-3c6f6bf87867"/>
+    <selectionType typeId="8fe6d2a0-dba5-4daa-84ac-97fdf4c10b68" valueTypeId="6d1bc2d9-c359-496d-9713-6b9bd4075883"/>
+    <listType typeId="744d1334-1189-4667-ac4f-5b289ecd95ca" valueTypeId="0d2a7e1c-a313-4e99-8109-e36275ac24ba"/>
+    <managerType typeId="2f428a9f-531d-4904-a897-5980d33e3606" valueTypeId="7f18a7ea-19fa-49d2-8904-cb5c8d8160b0"/>
+    <displacingCalculationTypesType typeId="23700248-67b3-48fa-b2bd-6708770b8dc4" valueTypeId="9da1ad0f-abe4-494c-840a-28dd6a19c256"/>
+    <displacingCalculationTypesRowType typeId="11643816-e278-40a6-a435-e50c5bdb91e9" valueTypeId="7b24b2cf-c60c-462d-9fe1-b69e4c1b816f"/>
+    <baseCalculationTypesType typeId="a6c5d577-c985-4199-82a4-b1311bcfec92" valueTypeId="8dd40e20-0d5d-4fd2-b64a-43021fbb9365"/>
+    <baseCalculationTypesRowType typeId="6f9cd505-504c-4d86-8ec7-5880e019254c" valueTypeId="bf18b6c0-e090-47a9-a10f-385355907978"/>
+    <leadingCalculationTypesType typeId="11a9b152-aa1f-453f-9e1a-6763970010f7" valueTypeId="02b13148-fc92-4337-8167-42f1fdaa634f"/>
+    <leadingCalculationTypesRowType typeId="384b74c8-28d5-4073-b7cb-88f16695a740" valueTypeId="62e3ff94-70d2-4188-bb7b-1e4c8db7ef68"/>
+  </producedTypes>
+  <name>ПланВидовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>План видов расчета</value>
+  </synonym>
+  <inputByString>ChartOfCalculationTypes.ПланВидовРасчета.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.ПланВидовРасчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCalculationTypes>

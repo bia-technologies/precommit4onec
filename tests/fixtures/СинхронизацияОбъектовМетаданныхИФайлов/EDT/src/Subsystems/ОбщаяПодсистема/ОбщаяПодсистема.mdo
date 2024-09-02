@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17ce464d-ec00-4645-9f7f-c36edf423c10">
+  <name>ОбщаяПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общая подсистема</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Sequence.ОсновнаяПоследовательность</content>
+  <content>Catalog.Пользователи</content>
+  <content>Document.ТестовыйДокумент</content>
+  <content>ExchangePlan.Универсальный</content>
+  <content>CommonModule.ОбщийМодуль</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Role.ПолныеПрава</content>
+  <content>CommonAttribute.Автор</content>
+  <content>Interface.Основной</content>
+  <content>Style.ОсновнойСтиль</content>
+  <content>DocumentNumerator.ОбщийНумератор</content>
+  <content>FilterCriterion.ПодчиненныеОбъекты</content>
+  <content>FunctionalOption.ДокументыИспользуются</content>
+  <content>EventSubscription.ПередЗаписьюДокументов</content>
+  <content>ScheduledJob.РегламентноеЗадание</content>
+  <content>Bot.НовыйБот</content>
+  <content>FunctionalOptionsParameter.ПараметрФункциональныхОпций</content>
+  <content>DefinedType.Сумма</content>
+  <content>SettingsStorage.НастройкиФорм</content>
+  <content>CommonCommand.ИерархияОбъектов</content>
+  <content>CommandGroup.Навигация</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>CommonTemplate.ОбщийМакет</content>
+  <content>CommonPicture.Логотип</content>
+  <content>XDTOPackage.ПакетXDTO</content>
+  <content>WebService.WebСервис</content>
+  <content>HTTPService.HTTPСервис</content>
+  <content>IntegrationService.СервисИнтеграции</content>
+  <content>StyleItem.ЦветЧерный</content>
+  <content>Constant.ДокументыИспользуются</content>
+  <content>DocumentJournal.ЖурналДокументов</content>
+  <content>Enum.ТипыДокументов</content>
+  <content>Report.ВсеДокументы</content>
+  <content>DataProcessor.УдалениеДанных</content>
+  <content>ChartOfCharacteristicTypes.ХарактеристикиПользователей</content>
+  <content>ChartOfAccounts.ПланСчетов</content>
+  <content>ChartOfCalculationTypes.ПланВидовРасчета</content>
+  <content>InformationRegister.СтатистикаПользователей</content>
+  <content>AccumulationRegister.ДвиженияДокументов</content>
+  <content>AccountingRegister.Бухгалтерский</content>
+  <content>CalculationRegister.РегистрРасчета</content>
+  <content>BusinessProcess.ОсновнойПроцесс</content>
+  <content>Task.Задача</content>
+</mdclass:Subsystem>

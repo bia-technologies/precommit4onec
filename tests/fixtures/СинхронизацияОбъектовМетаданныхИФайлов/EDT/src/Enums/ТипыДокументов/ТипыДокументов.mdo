@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a30fa35-9abe-46ab-855f-f7c52fd25983">
+  <producedTypes>
+    <refType typeId="4e42ae92-753f-4c88-a797-78adfbd6963d" valueTypeId="8833ed80-c93e-4372-983b-455d0b48fd6e"/>
+    <listType typeId="7260beac-220b-4f49-941e-3dafe19a25c0" valueTypeId="2fdb5972-03e3-4147-ba38-2ba5f1324902"/>
+    <managerType typeId="1104a56f-03ec-4cc4-98f8-ccd45826e856" valueTypeId="f4977140-47f6-4fcc-8060-150475bcca7e"/>
+  </producedTypes>
+  <name>ТипыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b031e7d-2461-4b8f-83f6-cf3ef32c93b9">
+    <name>Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
