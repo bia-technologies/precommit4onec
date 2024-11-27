@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b945228-c8a5-4b2f-8abb-83b452cb0991">
+  <producedTypes>
+    <selectionType typeId="9da46895-5948-4854-90a4-97f4d62c1b9a" valueTypeId="fac99904-9e0c-4332-81e0-723b09350009"/>
+    <listType typeId="8ae410cf-020b-4485-aba3-06a2e4645984" valueTypeId="9f74b6ea-7f7d-46fe-b928-342d2fcd1097"/>
+    <managerType typeId="50394765-f864-4430-8316-62c5e88123dc" valueTypeId="e76c9e5f-9698-4947-9af3-b7d605fb2a57"/>
+    <recordSetType typeId="6fe5d4b2-42e3-43ae-aed5-82aea6fd1e01" valueTypeId="e0c7eeb1-e9f2-401d-9cd0-f4792a01c7dd"/>
+    <recordKeyType typeId="2ba3d606-2c7a-492a-b92e-6e51edd6cb3e" valueTypeId="1f9f0ba2-65ca-4e43-8d50-9ffd9e7e8b90"/>
+    <recordType typeId="dc3d3b87-ddac-4bea-8757-5c0960c6853a" valueTypeId="612d8a80-e362-40d4-9b53-7ef8a56dfb66"/>
+    <extDimensionsType typeId="6cfd73c0-b34c-4053-b96f-f3798655113c" valueTypeId="70f2a68b-a4ad-4c86-819e-8f8a694fcca5"/>
+  </producedTypes>
+  <name>Бухгалтерский</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="28c827f2-acf4-46a2-8b37-0f8b0b30622a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

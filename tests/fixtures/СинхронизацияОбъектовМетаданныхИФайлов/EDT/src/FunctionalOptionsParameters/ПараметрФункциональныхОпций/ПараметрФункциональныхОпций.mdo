@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a5a772d-23d5-4d74-9999-eb44c5c987ce">
+  <name>ПараметрФункциональныхОпций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметр функциональных опций</value>
+  </synonym>
+  <use>Catalog.Пользователи</use>
+</mdclass:FunctionalOptionsParameter>

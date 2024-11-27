@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d39d87ee-0e36-44a0-8bdb-75add57f075e" thisNode="5ab6f6d9-b9ca-409e-afca-c6358d61029a">
+  <producedTypes>
+    <objectType typeId="2d93f6c0-379b-47d6-8d60-35665bb43ace" valueTypeId="03fea0a6-45e7-437d-aaae-90a970464766"/>
+    <refType typeId="5bfd5da4-92f4-40a8-a970-55caa33a4e35" valueTypeId="36f0ce9a-39f2-4d83-9a8b-3b663e23d4c5"/>
+    <selectionType typeId="c9ec7702-29c5-4086-8dc4-279f180e9600" valueTypeId="35b39955-0804-4886-81c9-2a24dfd02ac0"/>
+    <listType typeId="775d54d2-d17c-4d34-babb-b4a273f0f3d5" valueTypeId="dbf8c491-becc-46cf-ace7-69a437841e2b"/>
+    <managerType typeId="f92fdbac-7cde-499d-b0b9-c89c9e6ae07a" valueTypeId="6e78e075-c5d3-4f28-88a3-db7b157e3e75"/>
+  </producedTypes>
+  <name>Универсальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный</value>
+  </synonym>
+  <inputByString>ExchangePlan.Универсальный.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Универсальный.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Sequence.ОсновнаяПоследовательность</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ТестовыйДокумент</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fe2b721-5db0-4f2b-841f-0cd8da6339ca">
+  <name>ТестоваяКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая конфигурация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9691ef0f-9c8b-401c-a48a-91285db88351"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="74fb3d2a-8c76-4a26-9c93-aa870bd9a949"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="702940d9-778c-4001-b6d9-b261f1fdb603"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="66ef44dd-1d70-4bc0-80a4-a87b169943a8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1bd7f4a9-d9ef-4cf0-b7a2-ff1e06e5edd0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a673d0f1-99d1-4665-9461-a497cfe97571"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c722b643-b167-4601-8fdf-50371a2faf5b"/>
+  <defaultRunMode>OrdinaryApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <defaultConstantsForm>CommonForm.ФормаКонстант</defaultConstantsForm>
+  <languages uuid="0c8b05ea-a7c4-4a82-819a-f8fa09c6046f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОбщаяПодсистема</subsystems>
+  <styleItems>StyleItem.ЦветЧерный</styleItems>
+  <styles>Style.ОсновнойСтиль</styles>
+  <commonPictures>CommonPicture.Логотип</commonPictures>
+  <interfaces>Interface.Основной</interfaces>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.ОбщийМакет</commonTemplates>
+  <filterCriteria>FilterCriterion.ПодчиненныеОбъекты</filterCriteria>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
+  <commonAttributes>CommonAttribute.Автор</commonAttributes>
+  <exchangePlans>ExchangePlan.Универсальный</exchangePlans>
+  <xDTOPackages>XDTOPackage.ПакетXDTO</xDTOPackages>
+  <webServices>WebService.WebСервис</webServices>
+  <httpServices>HTTPService.HTTPСервис</httpServices>
+  <eventSubscriptions>EventSubscription.ПередЗаписьюДокументов</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.РегламентноеЗадание</scheduledJobs>
+  <settingsStorages>SettingsStorage.НастройкиФорм</settingsStorages>
+  <functionalOptions>FunctionalOption.ДокументыИспользуются</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ПараметрФункциональныхОпций</functionalOptionsParameters>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <commonCommands>CommonCommand.ИерархияОбъектов</commonCommands>
+  <commandGroups>CommandGroup.Навигация</commandGroups>
+  <constants>Constant.ДокументыИспользуются</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ТестовыйДокумент</documents>
+  <documentNumerators>DocumentNumerator.ОбщийНумератор</documentNumerators>
+  <sequences>Sequence.ОсновнаяПоследовательность</sequences>
+  <documentJournals>DocumentJournal.ЖурналДокументов</documentJournals>
+  <enums>Enum.ТипыДокументов</enums>
+  <reports>Report.ВсеДокументы</reports>
+  <dataProcessors>DataProcessor.УдалениеДанных</dataProcessors>
+  <informationRegisters>InformationRegister.СтатистикаПользователей</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияДокументов</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ХарактеристикиПользователей</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Бухгалтерский</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.РегистрРасчета</calculationRegisters>
+  <businessProcesses>BusinessProcess.ОсновнойПроцесс</businessProcesses>
+  <tasks>Task.Задача</tasks>
+  <externalDataSources>ExternalDataSource.ПодключениеКБазе</externalDataSources>
+  <integrationServices>IntegrationService.СервисИнтеграции</integrationServices>
+  <bots>Bot.НовыйБот</bots>
+</mdclass:Configuration>
