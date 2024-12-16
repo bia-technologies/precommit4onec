@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6342b71-f550-435c-843b-e197aff119f0">
+  <name>Реквизит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизит</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Catalog.Должности</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.СертификатыЭП</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ЧекККМ</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.РасширенныеНастройкиРегламентныхЗаданий</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.УчетФН</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+</mdclass:CommonAttribute>
