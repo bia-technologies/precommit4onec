@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="167ca255-b658-4c90-bde5-16f8d54380b1" extendedConfigurationObject="f6342b71-f550-435c-843b-e197aff119f0">
+  <name>Реквизит</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommonAttributeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Пользователи</type>
+      </types>
+    </typeExtension>
+    <content>Checked</content>
+  </extension>
+  <content>
+    <metadata>Catalog.Должности</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.СертификатыЭП</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ЧекККМ</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.РасширенныеНастройкиРегламентныхЗаданий</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.УчетФН</metadata>
+    <use>Use</use>
+  </content>
+</mdclass:CommonAttribute>
