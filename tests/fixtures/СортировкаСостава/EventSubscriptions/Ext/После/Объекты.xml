@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<EventSubscription uuid="bd26cec2-cd71-4455-9ae3-2a59fac9d63e">
+		<InternalInfo/>
+		<Properties>
+			<Name>ОбработкаПроверкиЗаполненияТест</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f00e893b-a4e8-4ad0-9129-09f619b06ba5</ExtendedConfigurationObject>
+			<Source>
+				<v8:Type>cfg:CatalogObject.ИндивидуальныеОбработкиОтчеты</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.СообщенияСервисовИнтеграции</v8:Type>
+				<v8:TypeSet>cfg:CalculationRegisterRecordSet</v8:TypeSet>
+				<v8:TypeSet>cfg:ChartOfAccountsObject</v8:TypeSet>
+				<v8:TypeSet>cfg:DocumentObject</v8:TypeSet>
+				<v8:TypeSet>cfg:TaskObject</v8:TypeSet>
+			</Source>
+		</Properties>
+	</EventSubscription>
+</MetaDataObject>
