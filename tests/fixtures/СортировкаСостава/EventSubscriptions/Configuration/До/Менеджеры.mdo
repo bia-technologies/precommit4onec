@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67086bed-ead8-4ddc-9e80-f83ac86bf930">
+  <name>ПодпискаТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписка тест</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.Банки</types>
+    <types>CatalogManager.Алгоритмы</types>
+    <types>CatalogManager.Валюты</types>
+    <types>CatalogManager.ИсточникиДанных</types>
+    <types>DocumentManager.ЧекККМ</types>
+    <types>DocumentManager.КассоваяСмена</types>
+    <types>EnumManager.ВидыВызоваШины</types>
+    <types>ChartOfCharacteristicTypesManager.ТипыЗначенийВидовПравДоступа</types>
+    <types>ChartOfAccountsManager</types>
+    <types>ChartOfCalculationTypesManager</types>
+    <types>ReportManager.ДинамикаРостаДанных</types>
+    <types>DataProcessorManager.ЖурналРегистрации</types>
+    <types>BusinessProcessManager</types>
+    <types>TaskManager</types>
+    <types>ExchangePlanManager.ТрансляцияИзменений</types>
+    <types>DocumentJournalManager</types>
+    <types>InformationRegisterManager.ДанныеШины</types>
+    <types>AccumulationRegisterManager</types>
+    <types>AccountingRegisterManager</types>
+    <types>CalculationRegisterManager</types>
+    <types>ConstantValueManager.ЗаголовокСистемы</types>
+    <types>FilterCriterionManager.ПодчиненныеДокументы</types>
+    <types>SequenceRecordSet</types>
+    <types>SettingsStorageManager</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.ПодпискиНаСобытия.ПодпискаТестОбработкаПолученияФормы</handler>
+</mdclass:EventSubscription>

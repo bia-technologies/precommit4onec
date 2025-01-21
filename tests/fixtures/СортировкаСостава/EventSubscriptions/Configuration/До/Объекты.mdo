@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f00e893b-a4e8-4ad0-9129-09f619b06ba5">
+  <name>ОбработкаПроверкиЗаполненияТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка проверки заполнения тест</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ДоговорыКлиентов</types>
+    <types>CatalogObject.Алгоритмы</types>
+    <types>CatalogObject.Банки</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject.ИсточникиДанных</types>
+    <types>DocumentObject.КассоваяСмена</types>
+    <types>DocumentObject.ЧекККМ</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>BusinessProcessObject</types>
+    <types>TaskObject</types>
+    <types>ExchangePlanObject.ТрансляцияИзменений</types>
+    <types>InformationRegisterRecordSet.ВерсииОбъектов</types>
+    <types>AccumulationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>CalculationRegisterRecordSet</types>
+    <types>ExternalDataSourceTableRecordSet.ТекущаяСУБД.ИнформацияОбОшибках</types>
+    <types>RecalculationRecordSet</types>
+  </source>
+  <event>FillCheckProcessing</event>
+</mdclass:EventSubscription>
