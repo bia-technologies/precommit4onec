@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67086bed-ead8-4ddc-9e80-f83ac86bf930">
+  <name>ПодпискаТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписка тест</value>
+  </synonym>
+  <source>
+    <types>AccountingRegisterManager</types>
+    <types>AccumulationRegisterManager</types>
+    <types>BusinessProcessManager</types>
+    <types>CalculationRegisterManager</types>
+    <types>CatalogManager.Алгоритмы</types>
+    <types>CatalogManager.Банки</types>
+    <types>CatalogManager.Валюты</types>
+    <types>CatalogManager.ИсточникиДанных</types>
+    <types>ChartOfAccountsManager</types>
+    <types>ChartOfCalculationTypesManager</types>
+    <types>ChartOfCharacteristicTypesManager.ТипыЗначенийВидовПравДоступа</types>
+    <types>ConstantValueManager.ЗаголовокСистемы</types>
+    <types>DataProcessorManager.ЖурналРегистрации</types>
+    <types>DocumentJournalManager</types>
+    <types>DocumentManager.КассоваяСмена</types>
+    <types>DocumentManager.ЧекККМ</types>
+    <types>EnumManager.ВидыВызоваШины</types>
+    <types>ExchangePlanManager.ТрансляцияИзменений</types>
+    <types>FilterCriterionManager.ПодчиненныеДокументы</types>
+    <types>InformationRegisterManager.ДанныеШины</types>
+    <types>ReportManager.ДинамикаРостаДанных</types>
+    <types>SequenceRecordSet</types>
+    <types>SettingsStorageManager</types>
+    <types>TaskManager</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.ПодпискиНаСобытия.ПодпискаТестОбработкаПолученияФормы</handler>
+</mdclass:EventSubscription>

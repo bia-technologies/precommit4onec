@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a4db2162-5623-4eab-ba7f-fa8377187be4" extendedConfigurationObject="67086bed-ead8-4ddc-9e80-f83ac86bf930">
+  <name>ПодпискаТест</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EventSubscriptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <source>Checked</source>
+  </extension>
+  <source>
+    <types>CatalogManager.Метаданные</types>
+    <types>DataProcessorManager</types>
+    <types>DocumentManager</types>
+    <types>InformationRegisterManager</types>
+    <types>InformationRegisterManager.СообщенияСервисовИнтеграции</types>
+  </source>
+</mdclass:EventSubscription>
