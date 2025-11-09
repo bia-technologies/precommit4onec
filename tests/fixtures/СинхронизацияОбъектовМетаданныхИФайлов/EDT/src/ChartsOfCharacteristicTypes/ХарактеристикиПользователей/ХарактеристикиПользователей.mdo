@@ -21,6 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <type>
     <types>String</types>
+    <types>CatalogRef.НесуществующийСправочник</types>
     <stringQualifiers>
       <length>10</length>
     </stringQualifiers>
