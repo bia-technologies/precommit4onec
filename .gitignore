@@ -7,3 +7,5 @@ exec.log
 /oscript_modules
 /reports/
 /coverage/
+
+*.bak

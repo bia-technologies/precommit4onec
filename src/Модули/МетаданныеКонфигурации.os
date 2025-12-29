@@ -58,9 +58,10 @@
 		КаталогиТиповМетаданных.Добавить("WebServices", "WebService");
 		КаталогиТиповМетаданных.Добавить("WSReferences", "WSReference");
 		КаталогиТиповМетаданных.Добавить("XDTOPackages", "XDTOPackage");
+		КаталогиТиповМетаданных.Добавить("WebSocketClients", "WebSocketClient");
 		
 		Если НЕ edt Тогда
-			КаталогиТиповМетаданных.Добавить("Languages", "Language");		
+			КаталогиТиповМетаданных.Добавить("Languages", "Language");
 		КонецЕсли;
 	
 	КонецЕсли;
